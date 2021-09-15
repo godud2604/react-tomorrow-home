@@ -1,5 +1,6 @@
 @import './constants/colors';
 @import './constants/typography';
+@import './constants/breakpoints';
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 @import './base/fonts';
@@ -7,5 +8,6 @@
 @import './base/reset';
 
 @import './mixins/text-style';
+@import './mixins/responsive';
 
 @import './layouts/grids';
