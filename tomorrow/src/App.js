@@ -19,6 +19,37 @@ function App() {
             <img src={avatar} alt="사딸라 아저씨" />
           </div>
         </div>
+
+        <div>
+          <div className="star-rating-13">
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+          </div>
+          <div className="star-rating-16">
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+          </div>
+          <div className="star-rating-20">
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+          </div>
+          <div className="star-rating-24">
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+            <i className="ic-star is-active"></i>
+          </div>
+        </div>
       </div>
     </div>
   )
