@@ -146,6 +146,34 @@ function App() {
           <input className="form-input" type="text" placeholder="스토어 검색" />
         </div>
       </div>
+
+      <div>
+        <div className="pagination">
+          <button className="page-control page-prev" type="button">
+            <i className="ic-chevron"></i>
+          </button>
+          <ol className="page-list">
+            <li className="page-item">
+              <a href="/">1</a>
+            </li>
+            <li className="page-item is-active">
+              <a href="/">2</a>
+            </li>
+            <li className="page-item">
+              <a href="/">3</a>
+            </li>
+            <li className="page-item">
+              <a href="/">4</a>
+            </li>
+            <li className="page-item">
+              <a href="/">5</a>
+            </li>
+          </ol>
+          <button className="page-control page-next" type="button">
+            <i className="ic-chevron"></i>
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
