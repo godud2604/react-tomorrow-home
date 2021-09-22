@@ -1,6 +1,6 @@
 import './App.css'
 import avatar from './assets/images/img-user-01.jpg'
-
+// TEST
 function App() {
   return (
     <div className="container">
@@ -48,6 +48,25 @@ function App() {
             <i className="ic-star is-active"></i>
             <i className="ic-star is-active"></i>
             <i className="ic-star is-active"></i>
+          </div>
+        </div>
+
+        <div>
+          <div class="price-off">
+            <strong className="amount">40,000</strong>
+            <span className="currency">원</span>
+          </div>
+          <div class="price-16">
+            <strong className="amount">40,000</strong>
+            <span className="currency">원</span>
+          </div>
+          <div class="price-20">
+            <strong className="amount">40,000</strong>
+            <span className="currency">원</span>
+          </div>
+          <div class="price-32">
+            <strong className="amount">40,000</strong>
+            <span className="currency">원</span>
           </div>
         </div>
       </div>
