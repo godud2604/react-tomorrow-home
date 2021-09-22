@@ -69,6 +69,66 @@ function App() {
             <span className="currency">원</span>
           </div>
         </div>
+
+        <div>
+          <button type="button" className="btn-primary btn-32">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-secondary btn-32">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-outlined btn-32">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-ghost btn-32">
+            버튼입니다
+          </button>
+        </div>
+
+        <div>
+          <button type="button" className="btn-primary btn-40">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-secondary btn-40">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-outlined btn-40">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-ghost btn-40">
+            버튼입니다
+          </button>
+        </div>
+
+        <div>
+          <button type="button" className="btn-primary btn-48">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-secondary btn-48">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-outlined btn-48">
+            버튼입니다
+          </button>
+          <button type="button" className="btn-ghost btn-48">
+            버튼입니다
+          </button>
+        </div>
+
+        <div>
+          <button type="button" className="btn-primary btn-55" disabled>
+            버튼입니다
+          </button>
+          <button type="button" className="btn-secondary btn-55" disabled>
+            버튼입니다
+          </button>
+          <button type="button" className="btn-outlined btn-55" disabled>
+            버튼입니다
+          </button>
+          <button type="button" className="btn-ghost btn-55" disabled>
+            버튼입니다
+          </button>
+        </div>
       </div>
     </div>
   )
