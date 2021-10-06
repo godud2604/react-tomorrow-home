@@ -32,7 +32,7 @@ const Gnb = () => {
                   </ul>
                 </nav>
                 <button
-                  className="gnb-menu-button gnb-icon-button sm-only"
+                  className="gnb-icon-button is-menu sm-only"
                   type="button"
                   aria-label="메뉴 열기 버튼"
                 >
@@ -50,7 +50,7 @@ const Gnb = () => {
                 </div>
                 <div className="button-group">
                   <button
-                    className="gnb-search-button gnb-icon-button lg-hidden"
+                    className="gnb-icon-button is-search lg-hidden"
                     type="button"
                     aria-label="검색창 열기 버튼"
                   >
