@@ -23,7 +23,7 @@ const Gnb = () => {
                     <li className="gnb-nav-item">
                       <a href="/">커뮤니티</a>
                     </li>
-                    <li className="gnb-nav-item">
+                    <li className="gnb-nav-item is-active">
                       <a href="/">스토어</a>
                     </li>
                     <li className="gnb-nav-item">
@@ -71,11 +71,12 @@ const Gnb = () => {
                     <i className="ic-bell"></i>
                   </a>
                   <a
-                    className="gnb-icon-button"
+                    className="gnb-icon-button is-cart"
                     href="/"
-                    aria-label="장바구니 페이지로 이동"
+                    aria-label="장바구니 페이지로 이동, 5개의 상품이 장바구니에 담겨있습니다."
                   >
                     <i className="ic-cart"></i>
+                    <strong className="badge">5</strong>
                   </a>
                   <button
                     className="gnb-avatar-button sm-hidden"
