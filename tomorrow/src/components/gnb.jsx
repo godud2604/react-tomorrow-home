@@ -48,6 +48,8 @@ const Gnb = () => {
                     placeholder="스토어 검색"
                   />
                 </div>
+
+                {/* NOTE: 로그인을 한 경우 */}
                 <div className="button-group">
                   <button
                     className="gnb-icon-button is-search lg-hidden"
@@ -88,6 +90,31 @@ const Gnb = () => {
                     </div>
                   </button>
                 </div>
+
+                {/* NOTE: 로그인을 하지 않은 경우 */}
+                {/* <div className="button-group">
+                  <button
+                    className="gnb-icon-button is-search lg-hidden"
+                    type="button"
+                    aria-label="검색창 열기 버튼"
+                  >
+                    <i className="ic-search"></i>
+                  </button>
+                  <a
+                    className="gnb-icon-button is-cart"
+                    href="/"
+                    aria-label="장바구니 페이지로 이동, 5개의 상품이 장바구니에 담겨있습니다."
+                  >
+                    <i className="ic-cart"></i>
+                    <strong className="badge">5</strong>
+                  </a>
+
+                  <div className="gnb-auth sm-hidden">
+                    <a href="">로그인</a>
+                    <a href="">회원가입</a>
+                  </div>
+                </div> */}
+
                 <button className="btn-primary btn-40 sm-hidden" type="button">
                   글쓰기
                   {/* 중요하지 않은 것 : aria-hidden */}
