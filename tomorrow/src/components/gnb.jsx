@@ -16,7 +16,7 @@ const Gnb = () => {
                     <img src={logo} alt="내일의 집" />
                   </a>
                 </h1>
-                <nav className="sm-hidden">
+                <nav className="gnb-nav sm-hidden">
                   {/* nav 태그 > heading 태그 필수 ! title의 내용을 적어준다. */}
                   <h2 className="visually-hidden">메뉴</h2>
                   <ul className="gnb-nav-list">
