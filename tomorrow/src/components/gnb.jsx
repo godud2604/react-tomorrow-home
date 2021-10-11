@@ -83,13 +83,11 @@ const Gnb = () => {
 
                   <div className="my-menu sm-hidden">
                     <button
-                      className="my-menu-button"
+                      className="my-menu-button is-active"
                       type="button"
                       aria-label="마이메뉴 버튼"
                     >
-                      <div className="avatar-32">
-                        <img src={avatar} alt="사딸라 아저씨" />
-                      </div>
+                      <img src={avatar} alt="사딸라 아저씨" />
                     </button>
 
                     <div className="my-menu-content">
