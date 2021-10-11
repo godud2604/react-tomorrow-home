@@ -80,15 +80,35 @@ const Gnb = () => {
                     <i className="ic-cart"></i>
                     <strong className="badge">5</strong>
                   </a>
-                  <button
-                    className="gnb-avatar-button sm-hidden"
-                    type="button"
-                    aria-label="마이메뉴 버튼"
-                  >
-                    <div className="avatar-32">
-                      <img src={avatar} alt="사딸라 아저씨" />
+
+                  <div className="my-menu sm-hidden">
+                    <button
+                      className="my-menu-button"
+                      type="button"
+                      aria-label="마이메뉴 버튼"
+                    >
+                      <div className="avatar-32">
+                        <img src={avatar} alt="사딸라 아저씨" />
+                      </div>
+                    </button>
+
+                    <div className="my-menu-content">
+                      <ul className="my-menu-list">
+                        <li className="my-menu-item">
+                          <a href="/">마이페이지</a>
+                        </li>
+                        <li className="my-menu-item">
+                          <a href="/">나의쇼핑</a>
+                        </li>
+                        <li className="my-menu-item">
+                          <a href="/">이벤트</a>
+                        </li>
+                        <li className="my-menu-item">
+                          <button type="button">로그아웃</button>
+                        </li>
+                      </ul>
                     </div>
-                  </button>
+                  </div>
                 </div>
 
                 {/* NOTE: 로그인을 하지 않은 경우 */}
